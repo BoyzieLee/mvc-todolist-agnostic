@@ -1,5 +1,4 @@
 import $ from "jquery";
-import _ from 'lodash';
 
 // Get our models
 import { TodoList} from './models/todo';
@@ -16,6 +15,8 @@ let todos = $('.todos'); //<ul>
 let groceryList = new TodoList('Grocery List');
 
 // Initiates our App Controller
+//these are the two lines of code that make the app work.
+//They talk to the controller and initiate it.
 let app = new AppController(todoForm, todos, groceryList);
 app.init();
 // console.log(app);
