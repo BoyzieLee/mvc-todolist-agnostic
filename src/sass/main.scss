@@ -23,4 +23,9 @@ hr {
 
 li {
   cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
 }
